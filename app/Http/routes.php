@@ -14,3 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('verification/{nombre}/{direccion}/{ruta}', 'CopiaController@verification');
